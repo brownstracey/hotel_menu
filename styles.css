@@ -1,101 +1,230 @@
- {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: 'Arial', sans-serif;
-    line-height: 1.6;
-    background-color: #f4f4f4;
-    color: #333;
-  }
-  
-  header {
-    background-color: #333;
-    color: white;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  header h1 {
-    margin-bottom: 10px;
-  }
-  
-  nav ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  nav ul li {
-    display: inline;
-    margin: 0 15px;
-  }
-  
-  nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-  }
-  
-  nav ul li a:hover {
-    text-decoration: underline;
-  }
-  
-  main {
-    padding: 20px;
-  }
-  
-  section {
-    margin-bottom: 40px;
-  }
-  
-  section h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
-  }
-  
-  .menu-item {
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
-    background-color: white;
-    padding: 15px;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  }
-  
-  .menu-item img {
-    width: 150px;
-    height: 100px;
-    object-fit: cover;
-    margin-right: 20px;
-    border-radius: 8px;
-  }
-  
-  .menu-item h3 {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-  }
-  
-  .menu-item p {
-    font-size: 1rem;
-    margin-bottom: 10px;
-  }
-  
-  .menu-item span {
-    font-size: 1.2rem;
-    font-weight: bold;
-    color: #e67e22;
-  }
-  
-  footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-  }
-  
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 2.0s;
+  background-color: hotpink;
+  color: #333;
+}
+
+header {
+  background-color: deeppink;
+  color: black;
+  padding: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 10px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  display: table-cell;
+  padding: 12px 18px;
+  background-color: purple;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  text-align: center;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: black;
+  transform: scale(1.05);
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  background-color: deeppink;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item img {
+  width: 150px;
+  height: 100px;
+  object-fit: cover;
+  margin-right: 20px;
+  display: table;
+  border-radius: 8px;
+}
+
+.menu-item h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.menu-item p {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+form label {
+  display: block;
+  margin-top: 15px;
+  font-weight: 500;
+  width: 100%;
+  color: black;
+}
+
+.menu-item span {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+form#checkoutForm {
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+fieldset {
+  border: none;
+  margin-bottom: 15px;
+  padding: 15px;
+}
+
+legend {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: deeppink;
+}
+
+form label {
+  display: block;
+  margin-top: 15px;
+  font-weight: 500;
+  color: black;
+}
+
+form input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+form button {
+  padding: 12px 18px;
+  background-color: deeppink;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 1.2rem;
+}
+
+form button:hover {
+  background-color: darkviolet;
+}
+
+.place-order-btn {
+  background-color: purple;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.place-order-btn:hover {
+  background-color: black;
+}
+
+button {
+  background-color: purple;
+  color: white;
+  padding: 2%;
+  border: darkmagenta;
+  width: 100%;
+  border-radius: 15px;
+  border-spacing: initial;
+  display: list-item;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: black;
+}
+
+#card-form {
+  margin-top: 20px;
+}
+
+#card-form input {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#order-success {
+  text-align: center;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+#payment-options button {
+  margin: 10px;
+}
+
+#order-success button {
+  background-color: purple;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#order-success button:hover {
+  background-color: darkpurple;
+}
+
+footer {
+  background-color: hotpink;
+  color: black;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  align-self: baseline;
+  bottom: 0;
+}
+ 
