@@ -5,7 +5,7 @@ This is a personal hotel menu. People can also place orders and book reservation
 ## Live Site
 
 View the deployed website here:  
-👉 {https://brownstracey.github.io/hotel_menu/index.html}
+👉 [Demo](https://brownstracey.github.io/hotel_menu/)
 
 ## About the Project
 
